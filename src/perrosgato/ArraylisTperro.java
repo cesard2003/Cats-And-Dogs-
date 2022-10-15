@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package perrosgato;
 
 import java.util.ArrayList;
@@ -29,7 +26,7 @@ public class ArraylisTperro extends PerrosGato{
         String raza = Input("Ingrese el nombre de la raza");
         String color = Input("Ingrese el color del Perro");
         int edad = Input1("Ingrese la edad del Perro");
-        int Ne = Input2("Ingrese El nivel de 1 a 10 de entrenamiento del gato");
+        int Ne = Input2("Ingrese El nivel de 1 a 10 de entrenamiento del perro");
         if (Ne > 10) {
             JOptionPane.showMessageDialog(null, "Solo de 1 a 10");
         }

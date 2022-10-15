@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package perrosgato;
 
 /**
@@ -64,7 +61,7 @@ public class Canino {
         this.Ne = Ne;
     }
           public String datos(){
-        return "El gato se llama "+nombre+" es un "+raza+ " es de color" +color + " y tiene "+edad+" años  \n";
+        return "El perro se llama "+nombre+" es un "+raza+ " es de color" +color + " y tiene "+edad+" años  \n";
       }
    
 
